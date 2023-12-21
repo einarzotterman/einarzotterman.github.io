@@ -5,31 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poise</title>
     <link href="poisestyle.css" rel="stylesheet" type="text/css" media="all">
-    <script src="./Poise website_files/script.js"></script>
+    <head>
+      
+      <script>function selectOnlyThis(id){
+        var myCheckbox = document.getElementsByName("myCheckbox");
+        Array.prototype.forEach.call(myCheckbox,function(el){
+          el.checked = false;
+        });
+        id.checked = true;
+      }</script>
+      </head>
   </head>
+
+
   <body>
 <div class="container">
     <div id="1" class="item"><p><a href="index.html">POISE</a> är ett småskaligt förlag som fokuserar på poesi.</p></div>
-       
-
-
 </div>
 
-<div id="3" class="item"><p><br><br>katalog: <br>
-  Visit 1–4 (2021→) <br>
-  R0–R4, Filip Lindberg (2024)</p></div>
+
+<div><p><br><br>katalog <br></p>
+  <div id=indent> 
+  <p>böcker:</p>
+  <br>
+    <label for="toggle-1">R0–R4, Filip Lindberg (2024)</label>
+    <input type="checkbox" name="myCheckbox" id="toggle-1" onclick="selectOnlyThis(this)">
+    <div class="display" id="r0">fin bild + kort text</div>
+    <br>
+    <br>
+<p>tidskrifter:</p>
+    <br>
+    <label for="toggle-2">Visit 1–4 (2021→)</label>
+    <input type="checkbox" name="myCheckbox" id="toggle-2" onclick="selectOnlyThis(this)">
+    <div class="display" id="visit"><img src="visit transp.png" alt="visit"><p>Visit är en kort brödtext</p></div>
+
+ </div>
+</div>
+
 
 
 <div class="footer">
-
-<div id="3" class="item"><a href="mailto:someone@yoursite.com">kontakt → poise@poi.se</a></div>
+  <div id="3" class="item"><a href="aktuellt.html">aktuellt</a></div>
 <div id="3" class="item"><a href="bokhandel.html">bokhandel</a></div>
-<div id="3" class="item"><a href="aktuellt.html">aktuellt</a></div>
+<div id="3" class="item"><a href="mailto:someone@yoursite.com">kontakt → </a></div>
+
 
 
 </div>
 
    
-  
 
 </body></html>

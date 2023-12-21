@@ -25,8 +25,10 @@
 
 }
 
+
+
 body{
-  margin-top: 1%; 
+  margin-top: .5%; 
 }
 
 p{margin-bottom: 0;
@@ -57,10 +59,10 @@ display: inline;}
 
 a {color: black;
   margin-bottom: 0;
-  font-size: 11pt;}
+  font-size: 12pt;}
 
 p3{margin-left: 2em; display: inline;
-  font-size: 11pt}
+  font-size: 12pt}
   
 
 a:hover {
@@ -83,6 +85,7 @@ a:visited {
   display: flex;
   position: fixed;
   left: 1%;
+  right: 1%;
   bottom: 1%;
   width: 100%;
   text-align: center;
@@ -90,6 +93,7 @@ a:visited {
     justify-content: space-between
 }
 
+#indent{margin-left: 2em;}
 .item {
   
   margin-right:2%;
@@ -100,10 +104,66 @@ a:visited {
   .list-item {
   
     margin-right:2%;
-      margin-left:0%
+    
     }
     
-    #4 {
 
 
+    label { 
+      -webkit-appearance: push-button;
+      -moz-appearance: button; 
+      display: inline-block;
+      cursor: pointer;
+      font-size: 11pt;
+      text-decoration: underline;
     }
+    label:hover {
+      font-family: serif;
+      display: inline-block;
+      -webkit-transform: skewX(15deg);
+         -moz-transform: skewX(15deg);
+          -ms-transform: skewX(15deg);
+           -o-transform: skewX(15deg);
+              transform: skewX(15deg);}
+.display{  position:absolute;;
+  position: absolute;
+margin: auto;
+outline:;
+  left: 0;
+  right: 0;
+  top: 0;
+ bottom : 0;
+  text-align: center;width: 60%;height: 60%;}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+    #r0{
+   display: none;
+   visibility: hidden;
+   }
+   input#toggle-1:checked ~ #r0{
+    display: block;
+    visibility: visible;
+ }
+
+
+ #visit{
+  display: none;
+  visibility: hidden;
+
+  }
+  input#toggle-2:checked ~ #visit{
+   display: block;
+   visibility: visible;}
+  
+
+ input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
