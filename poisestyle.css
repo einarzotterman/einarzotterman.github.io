@@ -67,6 +67,7 @@ p3{margin-left: 2em;
 
 
 a {color: black;
+  font-family: serif;
   margin-bottom: 0;
   font-size: 12pt;}
 
@@ -90,8 +91,8 @@ a:visited {
   line-height: 95%;
   display: flex;
   position: fixed;
-  left: 1%;
-  right: 1%;
+  left: 8px;
+  right: 8px;
   bottom: 1%;
   width: 100%;
   text-align: center;
