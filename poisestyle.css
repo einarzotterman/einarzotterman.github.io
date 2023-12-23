@@ -35,7 +35,7 @@ p{margin-bottom: 0;
   font-family: serif;
   display: inline;}
   
-p2{margin-left: 2em;
+p2{text-indent: 2em;
 display: inline;}
 
 .container{
