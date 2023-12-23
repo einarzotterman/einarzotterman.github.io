@@ -35,8 +35,9 @@ p{margin-bottom: 0;
   font-family: serif;
   display: inline;}
   
-p2{text-indent: 2em;
-display: inline;}
+p2{text-indent:  2em;
+  font-size: 12pt;
+display: block;}
 
 .container{
   font-family: "times";
@@ -62,7 +63,8 @@ a {color: black;
   margin-bottom: 0;
   font-size: 12pt;}
 
-p3{margin-left: 2em; display: inline;
+p3{margin-left: 2em; 
+  display: inline;
   font-size: 12pt}
   
 
