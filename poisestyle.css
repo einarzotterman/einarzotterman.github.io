@@ -29,6 +29,7 @@
 
 body{
   margin-top: .5%; 
+  margin-bottom: 40px;
 }
 
 p{margin-bottom: 0;
@@ -91,8 +92,6 @@ a:visited {
   line-height: 95%;
   display: flex;
   position: fixed;
-  left: 8px;
-  right: 8px;
   bottom: 1%;
   width: 100%;
   text-align: center;
@@ -101,10 +100,10 @@ a:visited {
 }
 
 #indent{margin-left: 2em;}
+
 .item {
-  
-  margin-right:2%;
-    margin-left:0%
+  margin-right:16px;
+ 
   }
   
 
