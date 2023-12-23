@@ -36,8 +36,15 @@ p{margin-bottom: 0;
   display: inline;}
   
 p2{text-indent:  2em;
+  font-family: serif;
   font-size: 12pt;
 display: block;}
+
+p3{margin-left: 2em; 
+  display: inline;
+  font-family: serif;
+  font-size: 12pt}
+  
 
 .container{
   font-family: "times";
@@ -63,10 +70,7 @@ a {color: black;
   margin-bottom: 0;
   font-size: 12pt;}
 
-p3{margin-left: 2em; 
-  display: inline;
-  font-size: 12pt}
-  
+
 
 a:hover {
   font-family: serif;
@@ -172,7 +176,22 @@ outline:;
     input#toggle-3:checked ~ #visit-2{
      display: block;
      visibility: visible;}
-    
+
+     #visit-3{
+      display: none;
+      visibility: hidden;
+      }
+      input#toggle-4:checked ~ #visit-3{
+       display: block;
+       visibility: visible;}
+       #visit-4{
+        display: none;
+        visibility: hidden;
+        }
+        input#toggle-5:checked ~ #visit-4{
+         display: block;
+         visibility: visible;}
+      
 
  input[type=checkbox] {
   position: absolute;
