@@ -11,23 +11,46 @@
   <body>
 <div class="list-container">
 
-    <div id="" class=""><p><a href="index.html">POISE</a> bokhandel fungerar som distributionscentral och arkiv för ett internationellt nätverk av förlag för småskaligt producerade poesiböcker och poesitidskrifter.  </div>
-    </p2>
+    <div id="" class="item"><p><a href="index.html">POISE</a> bokhandel fungerar som distributionscentral och arkiv för ett internationellt nätverk av förlag för småskaligt producerade poesiböcker och poesitidskrifter.<br> 
+      &emsp; &emsp;För att få information om var Poise bokhandel kommer finnas härnäst: skicka ett mail till</p> <p id="mail" style="display: inline;">info@poiseforlag.se</p>
+      <button class="copy" id="copy" onclick="copyContent()">[kopiera]</button>
       
+      <script>
+        
+        let text = document.getElementById('mail').innerHTML;
+        const copyContent = async () => {
+          try {
+            await navigator.clipboard.writeText(text);
+            console.log('Content copied to clipboard');
+            document.getElementById("copy").innerHTML = "[<i>kopierat</i>]";
+  
+          } catch (err) {
+            console.error('Failed to copy: ', err);
+            
+          }
+        }
+      </script> med "nyhetsbrev" i ämnesfältet.
+    </p>
+  </div>
       <div id="" class=""><p><br><br>Förlag, tidskrifter och utgivare som finns representerade:</p> </div>
 
 
       
        <p3>
         <a href="https://chateaux.se/">Chateaux →</a><br>
-        <a href="https://chateaux.se/collwood-villa">Collywood Villa →</a><br>
+        <a href="https://chateaux.se/collwood-villa">Collwood Villa →</a><br>
         <a href="https://www.englandforlag.no/">England Forlag →</a><br>
-        Korrex Press<br>
+        <a href="https://www.ericpestyediteur.com/">Éric Pesty Éditeur →</a><br>
+        <a href="https://www.forlagetvirkelig.org/">Forlaget Virkelig →</a><br>
+        <a href="https://www.kolonforlag.no/">Kolon Forlag →</a><br>
+        <a href="https://beataberggren.blogspot.com/">Korrex Press →</a><br>
         <a href="https://www.grafikverkstan.se/lina-nordenstrom">Lina Nordenström →</a><br>
+        Martin Högström <br>
         Peter Thörneby<br>
-       
-     
         <a href="https://tydningen.com/">Relä →</a><br>
+        <a href="https://www.ruelordbyron.org/">Rue Lord Byron →</a><br>
+
+  
         
         <a href="https://tydningen.com/">Tydningen →</a><br>
        </p3>
@@ -43,7 +66,7 @@
 
 <div class="footer">
   <div id="3" class="item"><a href="aktuellt.html">aktuellt</a></div>
-  <div id="3" class="item"><a href="index.html">förlag</a></div>
+  <div id="3" class="item"><p>[bokhandel]</p>/<a href="index.html">förlag</a></div>
   <div id="3" class="item"><a href="kontakt.html">kontakta/beställ</a></div>
 
   

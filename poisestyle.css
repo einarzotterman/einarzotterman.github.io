@@ -34,17 +34,26 @@ body{
   margin-bottom: 40px;
   font-family: Times, serif;
 }
+.title{
+}
 
+
+.text-box{
+  margin: 0 auto;
+max-width: 400px;
+background-color: ;
+}
 
 p{margin-bottom: 0;
   margin-top: 0;
+  max-width: 540px;
   font-family:  Times, serif;
   display: inline;}
   
 p2{text-indent:  2em;
   font-family: Times, serif;
   font-size: 12pt;
-display: block;}
+display: inline-block;}
 
 p3{margin-left: 2em; 
   display: inline;
@@ -156,13 +165,12 @@ display:block;}
   .list-item {
     max-width: 400px;
     margin-left: 2em;
-    }
+    } 
     
 
 
     label { 
-      -webkit-appearance: push-button;
-      -moz-appearance: button; 
+  
       display: inline-block;
       cursor: pointer;
       font-size: 12pt;
@@ -184,6 +192,7 @@ display:block;}
 .list-container{
 font-family: times;
 font-weight: ;
+
               
 display: flex;
 flex-direction: column;
@@ -220,11 +229,14 @@ margin-top: 0;
   left: 0;
   right: 0;
   top: 60pt;
-padding-bottom: 48pt;
+  padding-bottom: 48pt;
   overflow-y:scroll;
   overflow-x:hidden;
   bottom : 0;
   max-width: 500px;
+  margin-top: -64pt ;
+  padding-top: 64pt;
+  z-index: -2;
   }
 
   img {
@@ -301,6 +313,8 @@ padding-bottom: 48pt;
     overflow: ;
     max-width: 500px;
     padding-bottom: 24pt;
+    padding-top: 0pt;
+
     }
 
 
