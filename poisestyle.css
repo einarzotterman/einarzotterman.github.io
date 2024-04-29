@@ -1,33 +1,58 @@
-@font-face {
-    font-family: 'junicodeboldcondensed';
-    src: url('junicode-boldcondensed-webfont.eot');
-    src: url('junicode-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('junicode-boldcondensed-webfont.woff2') format('woff2'),
-         url('junicode-boldcondensed-webfont.woff') format('woff'),
-         url('junicode-boldcondensed-webfont.ttf') format('truetype'),
-         url('junicode-boldcondensed-webfont.svg#junicodeboldcondensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
-::-webkit-scrollbar {
-  display: none;
+
+@font-face {
+  font-family: 'times';
+  src: url('times-webfont.woff2') format('woff2'),
+       url('times-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'junicodebolditaliccondensed';
-    src: url('junicode-bolditaliccondensed-webfont.eot');
-    src: url('junicode-bolditaliccondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('junicode-bolditaliccondensed-webfont.woff2') format('woff2'),
-         url('junicode-bolditaliccondensed-webfont.woff') format('woff'),
-         url('junicode-bolditaliccondensed-webfont.ttf') format('truetype'),
-         url('junicode-bolditaliccondensed-webfont.svg#junicodebolditaliccondensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'times_new_romanbold_italic';
+  src: url('fonts/times_new_roman_-_bold_italic-webfont.woff2') format('woff2'),
+       url('fonts/times_new_roman_-_bold_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 
+
+
+@font-face {
+  font-family: 'times_new_romanregular';
+  src: url('fonts/times_new_roman-webfont.woff2') format('woff2'),
+       url('fonts/times_new_roman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'times_new_romanbold';
+  src: url('times_new_roman_-_bold-webfont.woff2') format('woff2'),
+       url('times_new_roman_-_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'times_new_romanitalic';
+  src: url('times_new_roman_-_italic-webfont.woff2') format('woff2'),
+       url('times_new_roman_-_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 body{
   margin-top: .5%; 
@@ -47,17 +72,17 @@ background-color: ;
 p{margin-bottom: 0;
   margin-top: 0;
   max-width: 540px;
-  font-family:  Times, serif;
+  font-family:  "times";
   display: inline;}
   
 p2{text-indent:  2em;
-  font-family: Times, serif;
+  font-family:  "times";
   font-size: 12pt;
 display: inline-block;}
 
 p3{margin-left: 2em; 
   display: inline;
-  font-family: times;
+  font-family:  "times_new_romanregular";
   font-size: 12pt}
   
 p4{
