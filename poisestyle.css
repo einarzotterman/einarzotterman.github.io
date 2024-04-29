@@ -1,5 +1,10 @@
 
 
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 @font-face {
   font-family: 'times-reg';
   src: url('fonts/times-webfont.woff2') format('woff2'),
@@ -91,13 +96,12 @@ font-size: 12pt;}
 
 .text-box{
   margin: 0 auto;
-max-width: 400px;
+max-width: 600px;
 background-color: ;
 }
 
 p{margin-bottom: 0;
   margin-top: 0;
-  max-width: 540px;
   display: inline;
 font-family: inherit;}
   
