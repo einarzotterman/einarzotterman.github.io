@@ -226,7 +226,6 @@ display:block;}
       text-decoration: underline;
     }
     label:hover {
-      font-family: serif;
       display: inline-block;
       -webkit-transform: skewX(15deg);
          -moz-transform: skewX(15deg);
@@ -239,7 +238,6 @@ display:block;}
 
 
 .list-container{
-font-family: times;
 font-weight: ;
 
               
@@ -249,7 +247,6 @@ flex-wrap:wrap;
               
               }
 .container{
-  font-family: times;
   font-weight: ;
   outline: doted;
   display: flex;
