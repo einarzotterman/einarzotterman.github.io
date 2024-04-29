@@ -82,7 +82,7 @@ display: inline-block;}
 
 p3{margin-left: 2em; 
   display: inline;
-  font-family:  "times_new_romanregular";
+  font-family:  "times";
   font-size: 12pt}
   
 p4{
@@ -90,9 +90,17 @@ p4{
   font-size: 9pt;
   font-weight: bold;
   text-align: center;
-  font-family: Times, serif;
+  font-family:"times";
  
 }
+
+
+a {color: black;
+  font-family: "times";
+  margin-bottom: 0;
+  font-size: 12pt;}
+
+
 
 button{
 	background: none;
@@ -113,12 +121,6 @@ button:hover {
 
 }
 
-
-
-a {color: black;
-  font-family: Times, serif;
-  margin-bottom: 0;
-  font-size: 12pt;}
 
 
 
@@ -348,4 +350,5 @@ margin-top: 0;
       width: 60mm;
     }
 
+   
 }
