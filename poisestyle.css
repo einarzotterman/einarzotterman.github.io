@@ -58,7 +58,8 @@ body{
   margin-top: .5%; 
   margin-bottom: 40px;
   font-family: "times-reg";
-}
+font-size: 12pt;}
+
 .title{
 }
 
@@ -102,6 +103,21 @@ a {color: black;
 
 
 
+
+a:hover {
+  display: inline-block;
+  -webkit-transform: skewX(15deg);
+     -moz-transform: skewX(15deg);
+      -ms-transform: skewX(15deg);
+       -o-transform: skewX(15deg);
+          transform: skewX(15deg);}
+
+  a {color: black;
+  margin-bottom: 0;
+  font-size: 12pt;}
+
+
+
 button{
 	background: none;
 	color: inherit;
@@ -124,28 +140,6 @@ button:hover {
 
 
 
-a:hover {
-  display: inline-block;
-  -webkit-transform: skewX(15deg);
-     -moz-transform: skewX(15deg);
-      -ms-transform: skewX(15deg);
-       -o-transform: skewX(15deg);
-          transform: skewX(15deg);}
-  a {color: black;
-  margin-bottom: 0;
-  font-size: 12pt;}
-
-
-
-a:hover {
-  font-family: Times, serif;
-
-  display: inline-block;
-  -webkit-transform: skewX(15deg);
-     -moz-transform: skewX(15deg);
-      -ms-transform: skewX(15deg);
-       -o-transform: skewX(15deg);
-          transform: skewX(15deg);}
 a:visited {
   color: black;
 }
