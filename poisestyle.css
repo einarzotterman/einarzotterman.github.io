@@ -98,8 +98,8 @@ background-color: ;
 p{margin-bottom: 0;
   margin-top: 0;
   max-width: 540px;
-  
-  display: inline;}
+  display: inline;
+font-family: inherit;}
   
 p2{text-indent:  2em;
  
