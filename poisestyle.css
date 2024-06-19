@@ -374,12 +374,10 @@ margin-top: 0;
     padding-top: 0pt;
 
     }
+	
 
 
-
-    #visitkort{ height: 96mm;
-      width: 60mm;
-    }
-
+img{
+	max-width:100%
    
 }
