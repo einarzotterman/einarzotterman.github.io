@@ -132,7 +132,12 @@ a {color: black;
   font-size: 12pt;}
 
 
-
+p5 {display: inline-block;
+  -webkit-transform: skewX(15deg);
+     -moz-transform: skewX(15deg);
+      -ms-transform: skewX(15deg);
+       -o-transform: skewX(15deg);
+          transform: skewX(15deg);}
 
 a:hover {
   display: inline-block;
