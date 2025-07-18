@@ -105,7 +105,11 @@ p{margin-bottom: 0;
    font-size: 12pt;
   margin-top: 0;
   display: inline;
-font-family: inherit;}
+font-family: inherit;
+  display:inline;
+            text-wrap: balance;
+            text-wrap: pretty;
+            hyphens: auto;}
   
 p2{text-indent:  2em;
  
